@@ -26,3 +26,22 @@ notes_bot/
 ├── 📄 .env.                 # ⚙️ Environment   
 └── 📄 requirements.txt      # 📦 Dependencies   
 ```
+# 🛠 Tech Stack
+Core: Python 3.12   
+
+NLP: Mistral AI, LangChain   
+
+Storage: ChromaDB (vector), SQLite (notes)   
+
+Telegram: python-telegram-bot v22.1   
+
+Audio: Whisper (voice processing)   
+
+# ✨ Key Features
+📝 Save notes via text/voice   
+
+🔍 Semantic search across all notes   
+
+🎙️ Voice query support   
+
+🤖 Context-aware responses via RAG   
