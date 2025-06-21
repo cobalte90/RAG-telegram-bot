@@ -1,0 +1,5 @@
+python-telegram-bot==22.1
+chromadb==1.0.13
+mistralai==1.8.2
+langchain==0.3.25
+openai-whisper==20240930
