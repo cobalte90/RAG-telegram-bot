@@ -11,4 +11,18 @@ Store notes in any format:
 ## 🛠 How It Works
 Send your notes (text or voice).
 
-Query the bot naturally — it retrieves and synthesizes answers from your data.
+Query the bot naturally — it retrieves and synthesizes answers from your data.   
+
+# Structure
+```
+notes_bot/   
+├── 📁 db/                   # Database files (auto-generated)   
+│   
+├── 📄 chroma_db.py          # 🧠 Vector DB setup (Chroma)   
+├── 📄 database.py           # 💾 SQL DB for note storage     
+├── 📄 llm_processing.py     # ✨ Mistral AI text processing   
+├── 📄 notes_bot_main.py     # 🤖 Core bot logic   
+│   
+├── 📄 .env.                 # ⚙️ Environment   
+└── 📄 requirements.txt      # 📦 Dependencies   
+```
